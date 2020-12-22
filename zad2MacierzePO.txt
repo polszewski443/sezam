@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{todonotes}
+\usepackage{anyfontsize}
+\usepackage{t1enc}
+\usepackage{indentfirst}
+\begin{document}
+{\fontsize{50}{70}\selectfont Wzory}
+\vspace{36px}
+
+\hspace{-5mm}Dana jest macierz A.\\
+$A=\left[\begin{array}{cccc}
+a_{11}&a_{12}&\ldots&a_{1n}\\
+a_{21}&a_{22}&\ldots&a_{2n}\\
+\vdots&\vdots&\ddots&\vdots\\
+a_{n1}&a_{n2}&\ldots&a_{nn}
+\end{array}\right] $
+\vspace{6px}
+
+\hspace{-5mm}o wyznaczniku $\neq$ 0\\
+Macierz odwrotna $A^{-1}$ jest określona wzorem
+\vspace{12px}
+
+\hspace{-5mm}$A^{-1}=\left[\begin{array}{cccc}
+a_{11}&a_{12}&\ldots&a_{1n}\\
+a_{21}&a_{22}&\ldots&a_{2n}\\
+\vdots&\vdots&\ddots&\vdots\\
+a_{n1}&a_{n2}&\ldots&a_{nn}
+\end{array}\right]^{-1}=\frac{1}{|A|}(A^D)^T=\frac{1}{|A|}\left[\begin{array}{cccc}
+D_{11}&D_{12}&\ldots&D_{1n}\\
+D_{21}&D_{22}&\ldots&D_{2n}\\
+\vdots&\vdots&\ddots&\vdots\\
+D_{n1}&D_{n2}&\ldots&D_{nn}
+\end{array}\right]^T$
+\vspace{12px}
+
+\hspace{-5mm}$()^T$ - transpozycja macierzy\\
+$()^D$ - macierz dopełnień\\
+$D_{ij}$ - dopełnienie algebraiczne elementu $a_{ij}$ macierzy A
+
+
+\end{document}
