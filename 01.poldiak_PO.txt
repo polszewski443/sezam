@@ -1,0 +1,9 @@
+\documentclass[12pt]{article}
+\usepackage{polski} % Koniecznie!
+\usepackage[utf8]{inputenc} % To też!
+\begin{document}
+% Brak tytułu :(
+Polskie znaki (diakrytyczne, narodowe, poldiak, ogonki):
+ĄĆĘŁŃÓŚŻŹ
+ąćęłńóśżź
+\end{document}
